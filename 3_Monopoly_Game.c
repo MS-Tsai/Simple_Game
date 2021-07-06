@@ -20,7 +20,7 @@ int main() {
 
     int round=0, money=10000, where=0, at, chance;
 
-    srand((unsigned)time(NULL));//隨著時間改變
+    srand((unsigned)time(NULL)); // Set random number to be different per game
     
     printf("  Rest      Taichung    Tainan\n\nKaohsiung       ↖        CCU  \n\n  Jail     Opportunity  Taipei\n\n");
     printf("--------- Game Start -----------\n\n");
